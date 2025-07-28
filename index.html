@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,44 @@
     <title>Calculadora</title>
 </head>
 <body>
+    <main>
+        <header>
+            <h1>CALCULADORA</h1>
+            <p>Ingrese los numeros a sumar</p>
+        </header>
+        <section>
+            <p>No se ha realizado la operación...</p>
+            <div>
+                <label for="input1">
+                    Numero 1
+                    <input type="number" placeholder="Ingrese el primer número" id="input1" min="0">
+                </label>
+                <label for="input2">
+                    Numero 2
+                    <input type="number" placeholder="Ingrese el segundo número" id="input2" min="0">
+                </label>
+                <button type="submit">Resultado</button>
+            </div>
+            <div>
+                <label for="inputSuma">
+                    <input type="radio" id="inputSuma">
+                    Suma
+                </label>
+                <label for="inputResta">
+                    <input type="radio" id="inputResta">
+                    Resta
+                </label>
+                <label for="inputMultiplicacion">
+                    <input type="radio" id="inputMultiplicacion">
+                    Multiplicación
+                </label>
+                <label for="inputDivision">
+                    <input type="radio" id="inputDivision">
+                    División
+                </label>
+            </div>
+        </section>
+    </main>
     <script src="./src/script/operadores.js"></script>
 </body>
 </html>
