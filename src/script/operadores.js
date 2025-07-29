@@ -1,14 +1,17 @@
 class operadores{
-    suma(){
-        return
+    suma(num1, num2){
+        return num1 + num2 
     }
-    resta(){
-        return   
+    resta(num1, num2){
+        return num1 - num2    
     }
-    multiplicacion(){
-        return   
+    multiplicacion(num1, num2){
+        return num1 * num2    
     }
-    division(){
-        return   
+    division(num1, num2){
+        if (num2 === 0){
+            return "El numero no puede ser 0"
+        }
+        return num1 / num2
     }
 }
