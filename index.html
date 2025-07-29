@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style/main.css">
     <title>Calculadora</title>
 </head>
+
 <body>
     <main>
         <header>
@@ -25,21 +27,21 @@
                 </label>
                 <button type="submit">Resultado</button>
             </div>
-            <div>
+            <div class="operadores">
                 <label for="inputSuma">
-                    <input type="radio" id="inputSuma">
+                    <input type="radio" name="operador" id="inputSuma" checked>
                     Suma
                 </label>
                 <label for="inputResta">
-                    <input type="radio" id="inputResta">
+                    <input type="radio" name="operador" id="inputResta">
                     Resta
                 </label>
                 <label for="inputMultiplicacion">
-                    <input type="radio" id="inputMultiplicacion">
+                    <input type="radio" name="operador" id="inputMultiplicacion">
                     Multiplicación
                 </label>
                 <label for="inputDivision">
-                    <input type="radio" id="inputDivision">
+                    <input type="radio" name="operador" id="inputDivision">
                     División
                 </label>
             </div>
@@ -47,4 +49,5 @@
     </main>
     <script src="./src/script/operadores.js"></script>
 </body>
+
 </html>
