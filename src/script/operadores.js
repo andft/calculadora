@@ -15,3 +15,4 @@ class operadores{
         return num1 / num2
     }
 }
+export const Operadores = new operadores();

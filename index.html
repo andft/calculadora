@@ -15,7 +15,7 @@
             <p>Ingrese los numeros a sumar</p>
         </header>
         <section>
-            <p>No se ha realizado la operación...</p>
+            <p id="resultado">No se ha realizado la operación...</p>
             <div>
                 <label for="input1">
                     Numero 1
@@ -25,29 +25,29 @@
                     Numero 2
                     <input type="number" placeholder="Ingrese el segundo número" id="input2" min="0">
                 </label>
-                <button type="submit">Resultado</button>
+                <button type="submit" id="botonResultado">Resultado</button>
             </div>
             <div class="operadores">
                 <label for="inputSuma">
-                    <input type="radio" name="operador" id="inputSuma" checked>
+                    <input type="radio" name="operador" id="inputSuma" value="suma" checked >
                     Suma
                 </label>
                 <label for="inputResta">
-                    <input type="radio" name="operador" id="inputResta">
+                    <input type="radio" name="operador" id="inputResta" value="resta" checked>
                     Resta
                 </label>
                 <label for="inputMultiplicacion">
-                    <input type="radio" name="operador" id="inputMultiplicacion">
+                    <input type="radio" name="operador" id="inputMultiplicacion" value="multiplicacion" checked>
                     Multiplicación
                 </label>
                 <label for="inputDivision">
-                    <input type="radio" name="operador" id="inputDivision">
+                    <input type="radio" name="operador" id="inputDivision" value="division" checked>
                     División
                 </label>
             </div>
         </section>
     </main>
-    <script src="./src/script/operadores.js"></script>
+    <script src="./src/script/main.js" type="module"></script>
 </body>
 
 </html>
